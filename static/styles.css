@@ -1,0 +1,71 @@
+body {
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+header {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.list-group-item {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+}
+
+.list-group-item .list-group-item {
+    border-radius: 5px;
+}
+
+.btn {
+    margin-right: 5px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.bi-person-fill {
+    /* Enlever la bordure noire */
+    border: none;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.alert-danger {
+    border: 1px solid #dc3545;
+    color: #dc3545;
+    background-color: #f8d7da;
+}
+
+/* Bordure principale */
+.list-group-item-main {
+    border: 2px solid #6c757d; /* Couleur gris foncé pour la bordure principale */
+    background-color: #e9ecef; /* Couleur de fond gris clair pour la bordure principale */
+}
+
+/* Sous-bordure pour les absences */
+.list-group-item-sub {
+    border: 2px solid #adb5bd; /* Couleur gris moyen pour les sous-bordures */
+    background-color: #f8f9fa; /* Couleur de fond blanc cassé pour les sous-bordures */
+    margin-top: 10px; /* Espacement entre les absences */
+}
